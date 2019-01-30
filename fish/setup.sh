@@ -10,16 +10,15 @@ DESTINATION="$(realpath ~/.config/fish)"
 
 info "Setting up fish shell..."
 
-# substep_info "Creating fish config folders..."
-# mkdir -p "$DESTINATION/functions"
-# mkdir -p "$DESTINATION/completions"
-# 
-# find * -name "*.fish" -o -name "fishfile" | while read fn; do
-#     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
-# done
+substep_info "Creating fish config folders..."
+mkdir -p "$DESTINATION/functions"
 
-# Temporary until I figure out what I want to include
-symlink "$SOURCE/config.fish" "$DESTINATION/config.fish"
+find * -name "*.fish" -o -name "fishfile" | while read fn; do
+    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+done
+
+# symlink "$SOURCE/config.fish" "$DESTINATION/config.fish"
+symlink "$SOURCE/fish_variables" "$DESTINATION/fish_variables"
 
 clear_broken_symlinks "$DESTINATION"
 
