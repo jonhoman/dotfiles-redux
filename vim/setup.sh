@@ -5,14 +5,18 @@ cd "$DIR"
 
 . ../scripts/functions.sh
 
-SOURCE="$(realpath .)"
-DESTINATION="$(realpath ~)"
-
 info "Setting up Vim..."
 
-find . -name ".vim*" | while read fn; do
-    fn=$(basename $fn)
-    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
-done
+SOURCE="$(realpath .)"
+DESTINATION="$(realpath ~/)"
+
+symlink "$SOURCE/.vimrc" "$DESTINATION/.vimrc"
+
+SOURCE="$(realpath .)"
+DESTINATION="$(realpath ~/.vim)"
+ 
+mkdir -p "$DESTINATION/autoload"
+
+symlink "$SOURCE/autoload" "$DESTINATION/autoload"
 
 success "Finished setting up Vim."

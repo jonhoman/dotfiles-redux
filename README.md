@@ -17,7 +17,7 @@ For more information about dotfiles, I wrote these articles on my blog:
 3. Clone this repository
 
   ```
-  git clone git@github.com:rkalis/dotfiles.git
+  git clone git@github.com:jhoman/dotfiles-redux.git
   ```
 4. Run the `bootstrap.sh` script
     1. Alternatively, only run the `setup.sh` scripts in specific subfolders if you don't need everything

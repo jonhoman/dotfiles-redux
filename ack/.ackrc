@@ -1,0 +1,17 @@
+--type-set=haml=.haml
+--type-set=css=.sass,.scss
+--type-set=cucumber=.feature
+--type-set=yaml=.yml
+--type-set=json=.json
+--smart-case
+
+--ignore-dir=tmp
+--ignore-dir=log
+--ignore-dir=logs
+--ignore-dir=.idea
+--ignore-dir=packages
+--ignore-dir=target
+--ignore-dir=coverage
+--ignore-dir=node_modules
+
+--ignore-file=is:tags

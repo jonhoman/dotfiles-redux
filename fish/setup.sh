@@ -10,13 +10,17 @@ DESTINATION="$(realpath ~/.config/fish)"
 
 info "Setting up fish shell..."
 
-substep_info "Creating fish config folders..."
-mkdir -p "$DESTINATION/functions"
-mkdir -p "$DESTINATION/completions"
+# substep_info "Creating fish config folders..."
+# mkdir -p "$DESTINATION/functions"
+# mkdir -p "$DESTINATION/completions"
+# 
+# find * -name "*.fish" -o -name "fishfile" | while read fn; do
+#     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+# done
 
-find * -name "*.fish" -o -name "fishfile" | while read fn; do
-    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
-done
+# Temporary until I figure out what I want to include
+symlink "$SOURCE/config.fish" "$DESTINATION/config.fish"
+
 clear_broken_symlinks "$DESTINATION"
 
 set_fish_shell() {
@@ -35,14 +39,16 @@ set_fish_shell() {
             fi
         fi
         substep_info "Changing shell to fish"
-        if sudo chsh -s /usr/local/bin/fish; then
+        if sudo chsh -s /usr/local/bin/fish $(whoami); then
             substep_success "Changed shell to fish"
         else
             substep_error "Failed changing shell to fish"
             return 2
         fi
         substep_info "Running fish initial setup"
-        fish -c "setup"
+
+	# I believe this requires the 'setup' function
+        # fish -c "setup"
     fi
 }
 
