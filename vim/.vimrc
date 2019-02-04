@@ -13,6 +13,9 @@ Plug 'tpope/vim-rails'
 
 call plug#end()
 
+syntax on
+filetype plugin indent on
+
 " colorscheme
 set t_Co=256
 colorscheme badwolf
