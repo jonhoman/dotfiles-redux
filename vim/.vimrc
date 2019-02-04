@@ -10,6 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'sjl/badwolf'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
+Plug 'tpope/vim-sensible'
 
 call plug#end()
 
