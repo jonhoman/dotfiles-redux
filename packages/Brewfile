@@ -15,6 +15,7 @@ brew "postgres"
 brew "rbenv"
 brew "terraform"
 brew "tmux"
+brew "watch"
 brew "wget"
 
 cask "1Password"
