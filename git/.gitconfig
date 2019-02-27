@@ -1,7 +1,7 @@
 [user]
   name = Jon Homan
   email = jhoman@hatchloyalty.com
-  # signingkey = EDF6E425C6C7728F
+  signingkey = D1B44E00B8A4D9C0
 
 [color]
   ui = auto
@@ -19,8 +19,8 @@
   editor = /usr/bin/vim
 [push]
   default = simple
-# [commit]
-  # gpgsign = true
 [pager]
   branch = false
 
+[commit]
+  gpgsign = true
