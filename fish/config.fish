@@ -8,3 +8,4 @@ set -x -g LANG en_GB.UTF-8
 # rbenv init
 status --is-interactive; and source (rbenv init -|psub)
 
+export GPG_TTY=(tty)
