@@ -17,6 +17,10 @@ find * -name "*.fish" -o -name "fishfile" | while read fn; do
     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done
 
+find * -name "*.py" | while read fn; do
+    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+done
+
 # symlink "$SOURCE/config.fish" "$DESTINATION/config.fish"
 symlink "$SOURCE/fish_variables" "$DESTINATION/fish_variables"
 
