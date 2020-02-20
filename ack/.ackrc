@@ -5,13 +5,14 @@
 --type-set=json=.json
 --smart-case
 
---ignore-dir=tmp
+--ignore-dir=coverage
 --ignore-dir=log
 --ignore-dir=logs
---ignore-dir=.idea
+--ignore-dir=node_modules
 --ignore-dir=packages
 --ignore-dir=target
---ignore-dir=coverage
---ignore-dir=node_modules
+--ignore-dir=tmp
+--ignore-dir=.idea
+--ignore-dir=.terraform
 
 --ignore-file=is:tags
