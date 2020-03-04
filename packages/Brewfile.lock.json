@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "caskroom/cask": {
-        "revision": "04b6f473cf6c13089c68aef4a58131bc7972e1c9"
+        "revision": "edc2520c683d443f3d7c34f91a0edda157dc08ad"
       },
       "heroku/brew": {
-        "revision": "5b9575bded0ab965eed9b69dbddb6e7dc475303c"
+        "revision": "269b75ce57ee410561d1e5673833ce0f1eb2deb1"
       },
       "homebrew/cask-drivers": {
-        "revision": "23e2b520853e34ad3e17236c7051bf3b7c0b8c70"
+        "revision": "bf7cc3aafa7deb4b84ac034494df2e0275273b92"
       },
       "koekeishiya/formulae": {
         "revision": "e7801864f83a9cbb3db949481db92d367c1f65a4"
@@ -157,7 +157,7 @@
         }
       },
       "heroku": {
-        "version": "7.38.1",
+        "version": "7.38.2",
         "bottle": false
       },
       "jemalloc": {
@@ -253,22 +253,22 @@
         }
       },
       "pgweb": {
-        "version": "0.11.5",
+        "version": "0.11.6",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.5.catalina.bottle.tar.gz",
-              "sha256": "6c2b16bfbaf05d845ee3fed44040940fda9c7e6ac715c77b822ef5e5cc46bd24"
+              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.6.catalina.bottle.tar.gz",
+              "sha256": "0e114aa64f94b8e64b6b26e314a38443c42a793e7e3c6f246b9b7219d2c1c905"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.5.mojave.bottle.tar.gz",
-              "sha256": "94d27f7b82dc0cd81b8f396bfdc5f60aaaff808b5958ae869b5e7708394c0cc9"
+              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.6.mojave.bottle.tar.gz",
+              "sha256": "8e2ff51513713949c869457d39c787ae7f5f13ba75abc11561914378e59fbb11"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.5.high_sierra.bottle.tar.gz",
-              "sha256": "226cc86baf7f47f8c38688157e11d70d79a305cd1632f9c638e5936759f59f10"
+              "url": "https://homebrew.bintray.com/bottles/pgweb-0.11.6.high_sierra.bottle.tar.gz",
+              "sha256": "43637e2a033c04ffc96dff95b355e2b99e0fdd263ff432498dceac9f305cc03d"
             }
           }
         }
@@ -387,22 +387,22 @@
         }
       },
       "terraform": {
-        "version": "0.12.20",
+        "version": "0.12.21",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.20.catalina.bottle.tar.gz",
-              "sha256": "25c7620a0343e13244b141db9aea321b296eaf9ad5abcf20a89db966d280ac35"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.catalina.bottle.tar.gz",
+              "sha256": "9a87e29f9418b49edc7a70a30f29e569dd3dbb7c259304b87db48cf556b0efbd"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.20.mojave.bottle.tar.gz",
-              "sha256": "f5b3312733631a42e9067032cef62803e500a2465e6cd979841b597a6ed4fed7"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.mojave.bottle.tar.gz",
+              "sha256": "dcf535db420f75c478d616be09da733a0ebedbbdbb1a35853acfbe3c3568ff18"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.20.high_sierra.bottle.tar.gz",
-              "sha256": "94c079fbac973d6507838d4e7f9b7a0be31421877f7662fd0db43d06b10f046e"
+              "url": "https://homebrew.bintray.com/bottles/terraform-0.12.21.high_sierra.bottle.tar.gz",
+              "sha256": "1e6a06b503baf84d70ba84a03609ee100e0fc2065853c8d211215b1fe27f9dd3"
             }
           }
         }
@@ -473,7 +473,7 @@
     },
     "cask": {
       "1password": {
-        "version": "7.4.2",
+        "version": "7.4.3",
         "options": {
           "full_name": "1Password"
         }
@@ -515,13 +515,13 @@
         }
       },
       "firefox": {
-        "version": "73.0",
+        "version": "73.0.1",
         "options": {
           "full_name": "firefox"
         }
       },
       "google-chrome": {
-        "version": "80.0.3987.106",
+        "version": "80.0.3987.122",
         "options": {
           "full_name": "google-chrome"
         }
@@ -539,13 +539,13 @@
         }
       },
       "jumpcut": {
-        "version": "0.71",
+        "version": "0.72",
         "options": {
           "full_name": "jumpcut"
         }
       },
       "keybase": {
-        "version": "5.2.0-20200130011203,cf82db8320",
+        "version": "5.2.1-20200225174716,9845113a89",
         "options": {
           "full_name": "keybase"
         }
@@ -599,7 +599,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "bd7a1379b573bdf91d133d62cfe1392c179cbb63",
+        "Homebrew/homebrew-core": "d7c91f204d77954b4410eaa509e16f63c91330b9",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.2.1",
         "macOS": "10.14.5"
