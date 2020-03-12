@@ -591,6 +591,12 @@
         "options": {
           "full_name": "vlc"
         }
+      },
+      "tunnelblick": {
+        "version": "3.8.1,5400",
+        "options": {
+          "full_name": "tunnelblick"
+        }
       }
     }
   },
