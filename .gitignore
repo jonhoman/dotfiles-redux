@@ -1,3 +1,4 @@
-repos/work.list
+packages/Brewfile.lock.json
 node_modules
+repos/work.list
 yarn.lock
