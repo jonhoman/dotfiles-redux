@@ -11,7 +11,7 @@ SOURCE="$(realpath .)"
 DESTINATION="$(realpath ~/)"
 
 symlink "$SOURCE/.chunkwmrc" "$DESTINATION/.chunkwmrc"
-symlink "$SOURCE/.skhdrc" "$DESTINATION/.skhdrc"
+# symlink "$SOURCE/.skhdrc" "$DESTINATION/.skhdrc"
 
 chmod +x ~/.chunkwmrc
 
