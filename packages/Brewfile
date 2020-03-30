@@ -31,6 +31,7 @@ brew "terraform"
 brew "tmux"
 brew "watch"
 brew "wget"
+brew "yarn"
 
 cask "1Password"
 cask "amazon-music"
