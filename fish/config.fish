@@ -11,4 +11,4 @@ set -x PATH /usr/local/opt/python/libexec/bin/ $PATH
 status --is-interactive; and source (rbenv init -|psub)
 
 export GPG_TTY=(tty)
-export SESS_PROJECT_ROOT=/Users/jhoman/Projects/work/
+export SESS_PROJECT_ROOT=/Users/jhoman/Projects/work/:/Users/jhoman/Projects/personal/
