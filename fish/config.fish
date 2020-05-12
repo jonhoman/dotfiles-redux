@@ -6,6 +6,7 @@ set -x -g LC_ALL en_GB.UTF-8
 set -x -g LANG en_GB.UTF-8
 
 set -x PATH /usr/local/opt/python/libexec/bin/ $PATH
+set -x PATH /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin $PATH
 
 # rbenv init
 status --is-interactive; and source (rbenv init -|psub)
