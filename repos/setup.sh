@@ -20,9 +20,10 @@ find * -name "*.list" | while read fn; do
         then continue; else
             pushd "$REPO_PATH/$folder" &> /dev/null
             git clone $repo &> /dev/null
-            if [[ $? -eq 128 ]]; then
+            exit_code=$?
+            if [[ $exit_code -eq 128 ]]; then
                 substep_success "$repo already exists."
-            elif [[ $? -eq 0 ]]; then
+            elif [[ $exit_code -eq 0 ]]; then
                 substep_success "Cloned $repo."
             else
                 substep_error "Failed to clone $repo."
