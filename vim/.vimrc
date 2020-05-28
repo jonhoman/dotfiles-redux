@@ -31,6 +31,7 @@ set ruler
 
 set nocompatible
 set modelines=0
+set nomodeline
 
 set number
 
