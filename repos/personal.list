@@ -1,4 +1,5 @@
 git@github.com:edc/bass.git
 git@github.com:jonhoman/dotfiles-redux.git
+git@github.com:influxdata/sandbox
 git@github.com:kubernetes-up-and-running/kuard.git
 git@gitlab.com:jhoman/www-gitlab-com.git
