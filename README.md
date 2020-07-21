@@ -13,7 +13,7 @@ For more information about dotfiles, see the following blog posts from original 
 2. Install Homebrew and git
 
   ```bash
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   brew install git
   ```
 3. Clone this repository
