@@ -1,0 +1,21 @@
+# enable colored output from ls, etc
+export CLICOLOR=1
+export LSCOLORS="Exfxcxdxbxegedabagacad"
+
+# load
+# export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:node_modules/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export EDITOR="vim"
+# export CDPATH=".:$HOME/dev/"
+
+# GO
+# export PATH="$(go env GOPATH)/bin:$PATH"
+
+# GNU Binaries (i.e. sed)
+# PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# sess config
+export SESS_PROJECT_ROOT=/Users/jonathan.homan/Projects/work/:/Users/jonathan.homan/Projects/personal/
+
+
+# prompt
+export PS1="\$(vcprompt -f '[%b%u%m]')[\w]$ "
