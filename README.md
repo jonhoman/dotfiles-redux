@@ -23,6 +23,7 @@ For more information about dotfiles, see the following blog posts from original 
   ```
 4. Run the `bootstrap.sh` script
     1. Alternatively, only run the `setup.sh` scripts in specific subfolders if you don't need everything
+5. Run `:PlugInstall` from within Vim to install the plugins via VimPlug
 
 ## Customisation
 I strongly encourage you to play around with the configurations, and add or remove features.
