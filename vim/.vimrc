@@ -71,6 +71,8 @@ set noeb vb t_vb=
 set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*,*/bin/*,*/coverage/*,*/public/*,*/node_modules/*
 " ctrlp no max number of files
 let g:ctrlp_max_files = 0
+" ctrlp show hidden files
+let g:ctrlp_show_hidden = 1
 
 " alt-ruby.vim mappings
 nnoremap <leader>at :AlternateToggle<cr>
