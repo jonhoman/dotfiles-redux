@@ -1,5 +1,4 @@
 tap "koekeishiya/formulae"
-tap "remind01/formulae"
 tap "versent/homebrew-taps"
 
 brew "ack"
@@ -26,6 +25,7 @@ brew "yabai"
 brew "vim"
 
 cask "amazon-music"
+cask "atom"
 cask "docker"
 cask "firefox"
 # cask "google-chrome"
