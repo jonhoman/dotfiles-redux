@@ -68,7 +68,7 @@ set shiftround
 set noeb vb t_vb=
 
 " ctrlp ignore list
-set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*,*/bin/*,*/coverage/*,*/public/*,*/node_modules/*
+set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*,*/bin/*,*/coverage/*,*/public/*,*/node_modules/*,*/.terraform/*
 " ctrlp no max number of files
 let g:ctrlp_max_files = 0
 " ctrlp show hidden files
