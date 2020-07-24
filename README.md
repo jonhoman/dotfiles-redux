@@ -10,20 +10,21 @@ For more information about dotfiles, see the following blog posts from original 
 ## Usage
 1. Restore your safely backed up ssh keys to `~/.ssh/`
     1. Alternatively, generate new ssh keys, and add these to your GitHub account
-2. Install Homebrew and git
+1. Install Homebrew, git, and coreutils
 
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   brew install git
+  brew install coreutils
   ```
-3. Clone this repository
+1. Clone this repository
 
   ```
   git clone git@github.com:jonhoman/dotfiles-redux.git
   ```
-4. Run the `bootstrap.sh` script
+1. Run the `bootstrap.sh` script
     1. Alternatively, only run the `setup.sh` scripts in specific subfolders if you don't need everything
-5. Run `:PlugInstall` from within Vim to install the plugins via VimPlug
+1. Run `:PlugInstall` from within Vim to install the plugins via VimPlug
 
 ## Customisation
 I strongly encourage you to play around with the configurations, and add or remove features.
