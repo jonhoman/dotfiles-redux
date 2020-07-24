@@ -17,4 +17,4 @@ export EDITOR="vim"
 export SESS_PROJECT_ROOT=/Users/jonathan.homan/Projects/work/:/Users/jonathan.homan/Projects/personal/
 
 # prompt
-export PS1="\$(vcprompt -f '[%b%u%m]')[\w]$ "
+# export PS1="\$(vcprompt -f '[%b%u%m]')[\w]$ "

@@ -14,7 +14,6 @@ symlink "$SOURCE/.bashrc" "$DESTINATION/.bashrc"
 symlink "$SOURCE/.bash_profile" "$DESTINATION/.bash_profile"
 symlink "$SOURCE/.exports" "$DESTINATION/.exports"
 
-# TODO: set bash shell
 set_bash_shell() {
     if grep --quiet bash <<< "$SHELL"; then
         success "Bash shell is already set up."

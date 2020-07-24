@@ -28,3 +28,6 @@ fi
 # [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 source ~/.sess/sess.sh
+
+# using font https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro
+eval "$(starship init bash)"
