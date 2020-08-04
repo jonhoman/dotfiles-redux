@@ -29,6 +29,7 @@ brew "vim"
 
 cask "amazon-music"
 cask "atom"
+cask "chef-workstation"
 cask "docker"
 cask "dropbox"
 cask "firefox"
