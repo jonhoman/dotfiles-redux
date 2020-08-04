@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+" plugins
 Plug 'airblade/vim-gitgutter'
 Plug 'clembradley/alt-ruby'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -7,10 +8,13 @@ Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
 Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'sjl/badwolf'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
+
+" colors
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'sjl/badwolf'
 
 call plug#end()
 
@@ -18,8 +22,10 @@ syntax on
 filetype plugin indent on
 
 " colorscheme
+" colorscheme badwolf
 set t_Co=256
-colorscheme badwolf
+let g:dracula_italic = 0
+colorscheme dracula
 
 " tab setup
 set tabstop=2
