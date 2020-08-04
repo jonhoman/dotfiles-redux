@@ -12,6 +12,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
 
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
+
 " colors
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'sjl/badwolf'
@@ -95,3 +98,6 @@ set laststatus=2
 
 " vim-gitgutter
 set updatetime=100
+
+" vim-notes config
+let g:notes_directories = ["~/Dropbox/Notes"]
