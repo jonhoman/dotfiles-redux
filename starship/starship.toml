@@ -3,3 +3,6 @@ disabled = true
 
 [character]
 symbol = "#"
+
+[java]
+disabled = true
