@@ -11,13 +11,11 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
-
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 
 " colors
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'sjl/badwolf'
 
 call plug#end()
 
@@ -25,10 +23,13 @@ syntax on
 filetype plugin indent on
 
 " colorscheme
-" colorscheme badwolf
-set t_Co=256
-let g:dracula_italic = 0
 colorscheme dracula
+
+# pieced together from:
+# https://medium.com/@dubistkomisch/how-to-actually-get-italics-and-true-colour-to-work-in-iterm-tmux-vim-9ebe55ebc2be
+let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
 
 " tab setup
 set tabstop=2
