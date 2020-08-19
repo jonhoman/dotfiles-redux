@@ -3,7 +3,6 @@ call plug#begin('~/.vim/plugged')
 " plugins
 Plug 'airblade/vim-gitgutter'
 Plug 'clembradley/alt-ruby'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
 Plug 'mileszs/ack.vim'
@@ -75,13 +74,6 @@ set shiftround
 
 " no bell
 set noeb vb t_vb=
-
-" ctrlp ignore list
-set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/coverage/*,*/public/*,*/node_modules/*,*/.terraform/*
-" ctrlp no max number of files
-let g:ctrlp_max_files = 0
-" ctrlp show hidden files
-let g:ctrlp_show_hidden = 1
 
 " alt-ruby.vim mappings
 nnoremap <leader>at :AlternateToggle<cr>
