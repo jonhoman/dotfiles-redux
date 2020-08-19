@@ -5,6 +5,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'clembradley/alt-ruby'
 Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
@@ -93,3 +95,5 @@ set updatetime=100
 
 " vim-notes config
 let g:notes_directories = ["~/Dropbox/Notes"]
+
+nnoremap <C-p> :<C-u>FZF<CR>

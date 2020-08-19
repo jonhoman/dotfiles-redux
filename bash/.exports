@@ -16,3 +16,4 @@ export EDITOR="vim"
 # sess config
 export SESS_PROJECT_ROOT=/Users/jonathan.homan/Projects/work/:/Users/jonathan.homan/Projects/personal/
 
+export FZF_DEFAULT_COMMAND='find .'
