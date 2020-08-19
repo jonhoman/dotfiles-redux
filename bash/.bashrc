@@ -36,7 +36,7 @@ fi
 # Include your own customizations!
 # [[ -f ~/.bash.local ]] && source ~/.bash.local
 
-# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 source ~/.sess/sess.sh
 
