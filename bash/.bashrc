@@ -22,6 +22,10 @@ bind 'set completion-ignore-case on'
 #   . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
 # fi
 
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+source <(kubectl completion bash)
+
 if type brew &>/dev/null; then
   HOMEBREW_PREFIX="$(brew --prefix)"
   if [[ -r "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh" ]]; then
