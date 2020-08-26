@@ -6,3 +6,6 @@ symbol = "#"
 
 [java]
 disabled = true
+
+[kubernetes]
+disabled = true
