@@ -1,7 +1,6 @@
 [user]
   name = Jon Homan
   email = jon@jonhoman.com
-  # signingkey = D1B44E00B8A4D9C0
 
 [color]
   ui = auto
@@ -22,5 +21,3 @@
 [pager]
   branch = false
 
-# [commit]
-# gpgsign = true
