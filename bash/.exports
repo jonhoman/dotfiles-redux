@@ -14,6 +14,6 @@ export EDITOR="vim"
 # PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 # sess config
-export SESS_PROJECT_ROOT=/Users/jonathan.homan/Projects/work/:/Users/jonathan.homan/Projects/personal/
+export SESS_PROJECT_ROOT="$HOME/Projects/work/:$HOME/Projects/personal/"
 
 export FZF_DEFAULT_COMMAND='find .'

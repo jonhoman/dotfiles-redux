@@ -10,7 +10,7 @@ info "Setting up Sess..."
 SOURCE="$(realpath .)"
 DESTINATION="$(realpath ~/.sess)"
 
-mkdir -p "$DESTINATION/sess"
+mkdir -p "$DESTINATION/"
 symlink "$SOURCE/sess.sh" "$DESTINATION/sess.sh"
 
 success "Finished setting up Sess."

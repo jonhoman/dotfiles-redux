@@ -3,28 +3,12 @@ source ~/.exports;
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
 
-# eval "$(rbenv init -)"
-# eval "$(nodenv init -)"
-# eval "$(pyenv init -)"
-
 bind 'set completion-ignore-case on'
 
-# `brew install bash-completion`
-# if [ -f $(brew --prefix)/etc/bash_completion ]; then
-#   . $(brew --prefix)/etc/bash_completion
-# fi
-# 
-# if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
-#   . `brew --prefix`/etc/bash_completion.d/git-completion.bash
-# fi
-# 
-# if [ -f `brew --prefix`/etc/bash_completion.d/git-prompt.sh ]; then
-#   . `brew --prefix`/etc/bash_completion.d/git-prompt.sh
-# fi
-
-[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
-
 source <(kubectl completion bash)
+
+# Why do I do this twice?
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
 if type brew &>/dev/null; then
   HOMEBREW_PREFIX="$(brew --prefix)"
@@ -37,12 +21,10 @@ if type brew &>/dev/null; then
   fi
 fi
 
-# Include your own customizations!
-# [[ -f ~/.bash.local ]] && source ~/.bash.local
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 source ~/.sess/sess.sh
 
 # using font https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro
+# Fira Code now, I think
 eval "$(starship init bash)"
