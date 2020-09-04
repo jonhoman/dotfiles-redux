@@ -2,6 +2,8 @@ source ~/.exports;
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
+export HISTSIZE=10000
+export HISTFILESIZE=10000
 
 bind 'set completion-ignore-case on'
 
@@ -28,3 +30,5 @@ source ~/.sess/sess.sh
 # using font https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/SourceCodePro
 # Fira Code now, I think
 eval "$(starship init bash)"
+
+export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
