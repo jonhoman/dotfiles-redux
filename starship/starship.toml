@@ -10,5 +10,8 @@ disabled = true
 [kubernetes]
 disabled = true
 
+[package]
+disabled = true
+
 [terraform]
 disabled = true
