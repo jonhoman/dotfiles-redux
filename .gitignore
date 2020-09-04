@@ -2,3 +2,5 @@ packages/Brewfile.lock.json
 node_modules
 repos/work.list
 yarn.lock
+
+!k8s-utils/setup.sh
