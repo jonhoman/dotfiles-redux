@@ -33,6 +33,7 @@ brew "wget"
 brew "yabai"
 brew "vim"
 
+cask "aerial"
 cask "amazon-music"
 cask "atom"
 cask "chef-workstation"
