@@ -5,3 +5,5 @@ yarn.lock
 
 !k8s-utils/setup.sh
 k8s-utils/*
+
+bash/.secrets
