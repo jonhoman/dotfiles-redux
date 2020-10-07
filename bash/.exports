@@ -16,7 +16,7 @@ export EDITOR="vim"
 # sess config
 export SESS_PROJECT_ROOT="$HOME/Projects/work/:$HOME/Projects/personal/"
 
-export FZF_DEFAULT_COMMAND='find .'
+export FZF_DEFAULT_COMMAND='ag --path-to-ignore ~/.ag_ignore -l --nocolor --hidden -g ""'
 
 # kubectx, kubens to path
 export PATH="$HOME/bin:$PATH"

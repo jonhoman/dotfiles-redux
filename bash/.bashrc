@@ -36,3 +36,5 @@ eval "$(nodenv init -)"
 eval "$(rbenv init -)"
 
 export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+
+alias ag='ag --path-to-ignore ~/.ag_ignore'

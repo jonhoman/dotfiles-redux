@@ -1,0 +1,10 @@
+coverage
+log
+logs
+node_modules
+packages
+target
+tmp
+.idea
+.terraform
+.git
