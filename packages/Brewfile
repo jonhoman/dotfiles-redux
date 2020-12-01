@@ -44,6 +44,7 @@ brew "wget"
 brew "yabai"
 brew "vim"
 
+cask "1password"
 cask "aerial"
 cask "amazon-music"
 cask "atom"
