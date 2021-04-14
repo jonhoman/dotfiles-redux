@@ -43,6 +43,7 @@ brew "tmate"
 brew "tmux"
 brew "watch"
 brew "wget"
+brew "wrk"
 brew "yabai"
 brew "vim"
 
