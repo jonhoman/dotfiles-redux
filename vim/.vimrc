@@ -2,18 +2,19 @@ call plug#begin('~/.vim/plugged')
 
 " plugins
 Plug 'airblade/vim-gitgutter'
-Plug 'clembradley/alt-ruby'
-Plug 'fatih/vim-go', {'for': 'go'}
-Plug 'hashivim/vim-terraform'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-notes'
+
+" Plug 'clembradley/alt-ruby'
+" Plug 'fatih/vim-go', {'for': 'go'}
+" Plug 'hashivim/vim-terraform'
+" Plug 'mileszs/ack.vim'
+" Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-notes'
 
 " colors
 Plug 'dracula/vim', { 'as': 'dracula' }
