@@ -28,8 +28,8 @@ shift + alt - j : yabai -m window --warp south
 shift + alt - k : yabai -m window --warp north
 shift + alt - l : yabai -m window --warp east
 
-# alt - r : yabai -m space --rotate 90
-# alt - w : yabai -m space --balance
+alt - r : yabai -m space --rotate 90
+alt - w : yabai -m space --balance
 
 # move focused container to workspace
 # shift + alt - m : chunkc tiling::window --send-to-desktop $(chunkc get _last_active_desktop)
