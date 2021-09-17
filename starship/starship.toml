@@ -5,6 +5,9 @@ disabled = true
 success_symbol = "[#](bold green)"
 error_symbol   = "[#](bold red)"
 
+[docker_context]
+disabled = true
+
 [java]
 disabled = true
 
