@@ -3,6 +3,7 @@ tap "versent/homebrew-taps"
 tap "tilt-dev/tap"
 
 brew "ack"
+brew "age"
 brew "assume-role"
 brew "awscli@1"
 brew "aws-iam-authenticator"
