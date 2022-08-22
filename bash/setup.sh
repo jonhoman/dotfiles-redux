@@ -21,10 +21,10 @@ set_bash_shell() {
     else
         echo "Bash not yet default shell"
         substep_info "Adding bash executable to /etc/shells"
-        if grep --fixed-strings --line-regexp --quiet "/usr/local/bin/bash" /etc/shells; then
+        if grep --fixed-strings --line-regexp --quiet "/opt/homebrew/bin/bash" /etc/shells; then
             substep_success "Bash executable already exists in /etc/shells."
         else
-            if sudo bash -c "echo /usr/local/bin/bash >> /etc/shells"; then
+            if sudo bash -c "echo /opt/homebrew/bin/bash >> /etc/shells"; then
                 substep_success "Bash executable added to /etc/shells."
               else
                 substep_error "Failed adding Bash executable to /etc/shells."
@@ -32,7 +32,7 @@ set_bash_shell() {
             fi
         fi
         substep_info "Changing shell to bash"
-        if sudo chsh -s /usr/local/bin/bash $(whoami); then
+        if sudo chsh -s /opt/homebrew/bin/bash $(whoami); then
             substep_success "Changed shell to bash"
         else
             substep_error "Failed changing shell to bash"

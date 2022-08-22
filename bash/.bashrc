@@ -1,5 +1,5 @@
 source ~/.exports;
-source ~/.secrets;
+# source ~/.secrets;
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
@@ -8,7 +8,7 @@ export HISTFILESIZE=10000
 
 bind 'set completion-ignore-case on'
 
-source <(kubectl completion bash)
+# source <(kubectl completion bash)
 
 # Why do I do this twice?
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
@@ -32,8 +32,8 @@ source ~/.sess/sess.sh
 # Fira Code now, I think
 eval "$(starship init bash)"
 
-eval "$(nodenv init -)"
-eval "$(rbenv init -)"
+# eval "$(nodenv init -)"
+# eval "$(rbenv init -)"
 
 export PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 
