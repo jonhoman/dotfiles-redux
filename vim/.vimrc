@@ -95,7 +95,4 @@ set laststatus=2
 " vim-gitgutter
 set updatetime=100
 
-" vim-notes config
-let g:notes_directories = ["~/Dropbox/Notes"]
-
 nnoremap <C-p> :<C-u>FZF<CR>
