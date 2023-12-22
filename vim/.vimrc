@@ -3,18 +3,11 @@ call plug#begin('~/.vim/plugged')
 " plugins
 Plug 'airblade/vim-gitgutter'
 Plug 'itchyny/lightline.vim'
-Plug 'hashivim/vim-terraform'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
-
-" Plug 'clembradley/alt-ruby'
-" Plug 'fatih/vim-go', {'for': 'go'}
-" Plug 'mileszs/ack.vim'
-" Plug 'xolox/vim-misc'
-" Plug 'xolox/vim-notes'
 
 " colors
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -78,11 +71,6 @@ set shiftround
 
 " no bell
 set noeb vb t_vb=
-
-" alt-ruby.vim mappings
-nnoremap <leader>at :AlternateToggle<cr>
-nnoremap <leader>av :AlternateVerticalSplit<cr>
-nnoremap <leader>as :AlternateHorizontalSplit<cr>
 
 " move swap and backup directories
 set backupdir=~/.vim/backup_files//
