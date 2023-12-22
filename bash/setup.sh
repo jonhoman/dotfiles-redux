@@ -13,7 +13,7 @@ info "Setting up bash shell..."
 symlink "$SOURCE/.bashrc" "$DESTINATION/.bashrc"
 symlink "$SOURCE/.bash_profile" "$DESTINATION/.bash_profile"
 symlink "$SOURCE/.exports" "$DESTINATION/.exports"
-symlink "$SOURCE/.secrets" "$DESTINATION/.secrets"
+symlink "$SOURCE/.functions" "$DESTINATION/.functions"
 
 set_bash_shell() {
     if grep --quiet bash <<< "$SHELL"; then

@@ -1,0 +1,8 @@
+ap() {
+  if [ -z "${1}" ]; 
+  then
+    aws sts get-caller-identity
+  else
+    export AWS_PROFILE=$1
+  fi
+}

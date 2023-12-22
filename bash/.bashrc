@@ -1,4 +1,5 @@
 source ~/.exports;
+source ~/.functions;
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
