@@ -1,7 +1,9 @@
 tap "koekeishiya/formulae"
 tap "tilt-dev/tap"
-
 tap "remind101/formulae"
+tap "nikitabobko/tap"
+
+cask "aerospace"
 
 brew "ack"
 brew "awscli"
