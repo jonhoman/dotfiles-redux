@@ -14,6 +14,7 @@ symlink "$SOURCE/.bashrc" "$DESTINATION/.bashrc"
 symlink "$SOURCE/.bash_profile" "$DESTINATION/.bash_profile"
 symlink "$SOURCE/.exports" "$DESTINATION/.exports"
 symlink "$SOURCE/.functions" "$DESTINATION/.functions"
+symlink "$SOURCE/.secrets" "$DESTINATION/.secrets"
 
 set_bash_shell() {
     if grep --quiet bash <<< "$SHELL"; then
